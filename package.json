@@ -1,0 +1,36 @@
+{
+  "name": "dracula-low-contrast",
+  "displayName": "Dracula low contrast",
+  "description": "Low Contrast version of Dracula theme",
+  "version": "0.0.1",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoobAndPoor/dracula-low-contrast.git"
+  },
+  "publisher": "NAPTheDevHcj",
+  "keywords": [
+    "dracula",
+    "low",
+    "contrast",
+    "dark",
+    "theme",
+    "NAPTheDevHcj",
+    "NAP The Dev Hcj"
+  ],
+  "engines": {
+    "vscode": "^1.57.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula low contrast",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula low contrast-color-theme.json"
+      }
+    ]
+  }
+}
