@@ -1,5 +1,6 @@
 {
   "name": "Dracula Low Contrast",
+  "semanticHighlighting": true,
   "colors": {
     "activityBar.background": "#333333",
     "activityBar.foreground": "#D7DAE0",
@@ -360,14 +361,7 @@
         "foreground": "#3ec761"
       }
     },
-    {
-      "name": "Function parameters",
-      "scope": ["entity.name.variable.parameter", "meta.at-rule.function variable", "meta.at-rule.mixin variable", "meta.function.arguments variable.other.php", "meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql", "variable.parameter"],
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#eeab63"
-      }
-    },
+
     {
       "name": "Decorators",
       "scope": ["meta.decorator variable.other.readwrite", "meta.decorator variable.other.property"],
@@ -416,7 +410,7 @@
       "name": "Built-in magic functions and constants",
       "scope": ["support.function.magic", "support.variable", "variable.other.predefined"],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "regular",
         "foreground": "#BD93F9"
       }
     },
@@ -474,7 +468,7 @@
       "name": "Storage",
       "scope": ["storage", "meta.implementation storage.type.objc", "meta.interface-or-protocol storage.type.objc", "source.groovy storage.type.def"],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "regular",
         "foreground": "#db6aaa"
       }
     },
@@ -585,6 +579,14 @@
       }
     },
     {
+      "name": "Function parameters",
+      "scope": ["entity.name.variable.parameter", "meta.at-rule.function variable", "meta.at-rule.mixin variable", "meta.function.arguments variable.other.php", "meta.selectionset.graphql meta.arguments.graphql variable.arguments.graphql", "variable.parameter"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#eeab63"
+      }
+    },
+    {
       "name": "Destructuring / aliasing reference name (LHS)",
       "scope": ["meta.import variable.other.readwrite", "meta.object-binding-pattern-variable variable.object.property", "meta.variable.assignment.destructured.object.coffee variable"],
       "settings": {
@@ -596,7 +598,7 @@
       "name": "Destructuring / aliasing variable name (RHS)",
       "scope": ["meta.import variable.other.readwrite.alias", "meta.export variable.other.readwrite.alias", "meta.variable.assignment.destructured.object.coffee variable variable"],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "regular",
         "foreground": "#c2c2c2"
       }
     },
@@ -639,7 +641,7 @@
       "name": "Powershell constants mistakenly scoped to `support`, rather than `constant` (edge)",
       "scope": ["support.constant"],
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "regular",
         "foreground": "#BD93F9"
       }
     },
