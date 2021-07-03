@@ -579,7 +579,7 @@
     },
     {
       "name": "Variables and object properties",
-      "scope": ["variable", "constant.other.key.perl", "support.variable.property", "variable.other.constant.js", "variable.other.constant.ts", "variable.other.constant.tsx"],
+      "scope": ["variable", "constant.other.key.perl", "support.variable.property", "variable.other.constant.ts", "variable.other.constant.tsx"],
       "settings": {
         "foreground": "#c4c4c4"
       }
